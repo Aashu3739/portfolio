@@ -71,9 +71,9 @@
         "section_explanatory_text": "",
         "section_data": [
           {"label": "Email", "display_text": "sanadhyaashu@gmail.com", "link": "mailto:sanadhyaashu@gmail.com"},
-          {"label": "GitHub", "display_text": "GitHub Profile", "link": "https://github.com/Aashu3739"},
-          {"label": "LinkedIn", "display_text": "LinkedIn Profile", "link": "https://www.linkedin.com/in/ashishsanadhya"},
-          {"label": "Kaggle", "display_text": "Kaggle Profile", "link": "https://www.kaggle.com/ashish190274"}
+          {"label": "GitHub", "display_text": "github.com/ashish.sanadhya", "link": "https://github.com/Aashu3739"},
+          {"label": "LinkedIn", "display_text": "linkedin.com/in/ashishsanadhya", "link": "https://www.linkedin.com/in/ashishsanadhya"},
+          {"label": "Kaggle", "display_text": "kaggle.com/ashish.sanadhya", "link": "https://www.kaggle.com/ashish190274"}
         ]
       }
     }
