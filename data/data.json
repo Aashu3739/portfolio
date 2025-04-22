@@ -1,0 +1,81 @@
+{
+  "full_name": "Ashish Sanadhya",
+  "meta_description": "GitHub Pages-based portfolio template for tech-savvy Product Managers and Engineers",
+  "meta_keywords": "portfolio, portfolio template, portfolio for engineers",
+  "pitch": "Decade of Product & Technical Innovation | Start-up Growth | Cloud & AI Expert | IIoT | Industry 4.0",
+  "sections": [
+    {
+      "About": {
+        "section_explanatory_text": "",
+        "section_data": "Over ten years of experience in the IT industry with specialization and expertise in machine learning, deep learning, and data engineering. Designed and delivered scalable ML production systems end-to-end with advanced data lifecycle practices. Adept in CNNs, RNNs, GANs, NLP, anomaly detection, and predictive modeling. Built real-time telemetry and vision-based AI solutions across sectors like manufacturing, healthcare, and finance. Architected and deployed systems on AWS, IBM, and Azure clouds, leveraging modern big data tools."
+      }
+    },
+    {
+      "projects": {
+        "section_explanatory_text": "Highlighted projects showcasing my expertise across AI, ML, and data platforms:",
+        "section_data": [
+          {
+            "name": "Vision IQ",
+            "header": "2022-2023",
+            "link": "",
+            "description": "An AI-powered vision platform to automate quality inspection and proactively alert on machining parameters impacting product quality. Integrated ML pipelines for barcode recognition, fault prediction, and production analytics.",
+            "images": []
+          },
+          {
+            "name": "Barcode Image Analyzer",
+            "header": "2020-2021",
+            "link": "",
+            "description": "Automated barcode recognition using drone-captured images with deep CNN models. Achieved 75% accuracy and significant performance boost in warehouse automation.",
+            "images": []
+          },
+          {
+            "name": "Gazelle",
+            "header": "2015–2020",
+            "link": "",
+            "description": "Built data pipelines and analytics for industrial IoT platforms including time series modeling, circuit fault prediction, and self-service dashboards. Implemented Kafka, HBase, Impala on cloud infrastructure.",
+            "images": []
+          },
+          {
+            "name": "Realized Price Prediction",
+            "header": "2014-2015",
+            "link": "",
+            "description": "Correlated social sentiment with stock prices using NLP and machine learning. Built predictive models based on real-time news and social feeds.",
+            "images": []
+          },
+          {
+            "name": "IT Monitoring & Resume Clustering",
+            "header": "2013-2014",
+            "link": "",
+            "description": "NLP-driven platform to analyze email sentiments, skill patterns, and resume relevance ranking for IT performance management and hiring.",
+            "images": []
+          }
+        ]
+      }
+    },
+    {
+       "Conferences": [
+    {
+      "title": "Analytics-Based Solutions for Improving Alert Management Service for Enterprise Systems",
+      "conference": "2013 IEEE 13th International Conference on Data Mining Workshops (ICDM)",
+      "link": "https://dblp.uni-trier.de/pid/142/7130.html"
+    },
+    {
+      "title": "Analytics-Based Solutions for Improving Alert Management Service for Enterprise Systems",
+      "conference": "Student Research Symposium at International Conference on High Performance Computing (HiPC)",
+      "link": "https://www.hipc.org/hipc2013/authorawards.php"
+    }
+  ]
+    },
+    {
+      "Contacts": {
+        "section_explanatory_text": "",
+        "section_data": [
+          {"label": "Email", "display_text": "sanadhyaashu@gmail.com", "link": "mailto:sanadhyaashu@gmail.com"},
+          {"label": "GitHub", "display_text": "GitHub Profile", "link": "https://github.com/Aashu3739"},
+          {"label": "LinkedIn", "display_text": "LinkedIn Profile", "link": "https://www.linkedin.com/in/ashishsanadhya"},
+          {"label": "Kaggle", "display_text": "Kaggle Profile", "link": "https://www.kaggle.com/ashish190274"}
+        ]
+      }
+    }
+  ]
+}

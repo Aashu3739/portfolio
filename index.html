@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Portfolio of Ashish Sanadhya</title>
+  <meta name="description" content="Portfolio showcasing Ashish Sanadhya's expertise in AI, ML, and Data Engineering.">
+  <meta name="keywords" content="Ashish Sanadhya, AI Engineer, Machine Learning, Data Engineering, Portfolio">
+  <meta name="author" content="Ashish Sanadhya">
+
+  <!-- Open Graph / Social Preview -->
+  <meta property="og:title" content="Portfolio of Ashish Sanadhya">
+  <meta property="og:description" content="Explore AI/ML innovations, projects, and expertise of Ashish Sanadhya">
+  <meta property="og:image" content="/assets/preview.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.com">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="src/css/styles.css" rel="stylesheet">
+  <link href="src/css/my.styles.css" rel="stylesheet">
+
+  <!-- Dark Mode Support -->
+  <style>
+    :root {
+      --bg-color: #fefefe;
+      --text-color: #2c3e50;
+      --card-bg: #f9f9f9;
+      --link-color: #007bff;
+      --link-hover: #0056b3;
+      --navbar-bg: #ffffff;
+      --border-color: #3498db;
+    }
+
+    body.dark {
+      --bg-color: #121212;
+      --text-color: #e0e0e0;
+      --card-bg: #2c2c2c;
+      --link-color: #66b2ff;
+      --link-hover: #3399ff;
+      --navbar-bg: #1a1a1a;
+      --border-color: #3ca3e6;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    a {
+      color: var(--link-color);
+    }
+
+    a:hover {
+      color: var(--link-hover);
+    }
+
+    .navbar {
+      background-color: var(--navbar-bg) !important;
+      transition: background-color 0.3s;
+    }
+
+    .navbar-nav .nav-link:hover {
+      background-color: rgba(255,255,255,0.05);
+    }
+
+    .li {
+      background-color: var(--card-bg);
+      border-left: 4px solid var(--border-color);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .theme-toggle {
+      cursor: pointer;
+      font-size: 1.4rem;
+      transition: transform 0.3s ease;
+    }
+
+    .theme-toggle:hover {
+      transform: rotate(20deg) scale(1.1);
+    }
+  </style>
+</head>
+
+<body style="display: none;">
+  <div class="container margin-custom-page">
+    <!-- Navbar -->
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <span class="navbar-brand full-name"></span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <span class="me-auto"></span>
+            <ul class="navbar-nav"></ul>
+            <span class="theme-toggle ms-3" title="Toggle dark mode">🌚</span>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Intro Section with Animation -->
+    <div class="row">
+      <div class="container col-lg-10 col-12">
+        <div class="welcome-message text-center">
+          <h1 class="animate__animated animate__fadeInDown">Hi, I am <span class="full-name"></span> 👋</h1>
+          <h2 class="pitch animate__animated animate__fadeInUp animate__delay-1s"></h2>
+        </div>
+
+        <!-- Dynamic Sections -->
+        <div id="sections"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Preview Modal -->
+  <div class="modal fade" id="image_preview_modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="image_preview_modalLabel">Preview</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="" id="image_preview" class="img-fluid" alt="Image Preview">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="src/js/sdk.js"></script>
+  <script src="src/js/my.app.js"></script>
+
+  <!-- Simple Theme Toggle Script -->
+  <script>
+    document.querySelector('.theme-toggle').addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script>
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</body>
+</html>
+<!-- Your existing scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="src/js/sdk.js"></script>
+<script src="src/js/my.app.js"></script>
+
+<!-- Smooth Scroll Navigation -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute("href"));
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth" });
+        }
+      });
+    });
+  });
+</script>
+
+<!-- Animate.css (already included) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+

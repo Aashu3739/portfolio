@@ -1,0 +1,76 @@
+{
+  "full_name": "Super Mario",
+  "meta_description": "GitHub Pages-based portfolio template for tech-savvy Product Managers and Engineers",
+  "meta_keywords": "portfolio, portfolio template, portfolio for engineers",
+  "pitch": "An awesome person who can do rad shit",
+  "sections": [
+    {
+      "About": {
+        "section_explanatory_text": "",
+        "section_data": "This is a portfolio template made for tech people and published with GitHub Pages. You can fork it on GitHub (see link below), update data.json with your content, publish with GitHub Pages the same way and use it as your personal portfolio 👍"
+      }
+    },
+    {
+      "Projects": {
+        "section_explanatory_text": "Below you can list your projects:",
+        "section_data": [
+          {
+            "name": "Bowser Fight",
+            "header": "1985",
+            "link": "https://nintendo.com",
+            "description": "Here you can describe project outcomes and provide screenshots / pictures. Click on an image to open it full size.",
+            "images": [
+              {
+                "link": "https://s3-portfolio-files.s3.eu-west-1.amazonaws.com/portfolio_template/super-mario-bros-speedrun.jpg",
+                "description": "Jumped over Bowser"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Conferences": [
+        {
+          "title": "“Super Mario Bros. Wonder”",
+          "conference": "Nintendo Direct 6.21.2023",
+          "link": "https://www.youtube.com/embed/JStAYvbeSHc?si=--XUV7SNypuvuNDc"
+        }
+      ]
+    },
+    {
+      "Interviews": [
+        {
+          "title": "“The Super Mario Bros. Movie Cast Reveal Their Favorite Nintendo Games”",
+          "link": "https://www.gameinformer.com/video-interview/2023/04/05/interview-the-super-mario-bros-movie-cast-reveal-their-favorite-nintendo"
+        }
+      ]
+    },
+    {
+      "Books": [
+        {
+          "name": "Super Mario: Meet Mario! (Nintendo®) (Step into Reading)",
+          "header": "",
+          "link": "https://www.amazon.com/Meet-Mario-Nintendo-Step-Reading/dp/0593304446",
+          "description": "There's a book written about me!",
+          "images": [
+            {
+              "link": "https://s3-portfolio-files.s3.eu-west-1.amazonaws.com/portfolio_template/super-mario-book.jpg",
+              "description": "Super Mario book"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Contacts": {
+        "section_explanatory_text": "",
+        "section_data": [
+          {"label": "Email", "display_text": "supermario@nintendo.com", "link": "mailto:supermario@nintendo.com"},
+          {"label": "GitHub", "display_text": "source code for this portfolio template", "link": "https://github.com/alexeyhimself/portfolio_template"},
+          {"label": "LinkedIn", "display_text": "an author of this template", "link": "https://www.linkedin.com/in/aleksei-sotskov"}
+        ]
+      }
+    }
+  ]
+}
